@@ -90,7 +90,7 @@ fi
 
 # Google Drive
 upload "Uploading to Google Drive..."
-python $work_dir/upload_rom_api.py "$output_file" --folder_id "106_R-2ZwUHx-7JqAhFUxsH2w-OkaeLI_" --path "${uploaddir}/${polyxver}/${device_code}/" || {
+python $work_dir/upload_rom_api.py "$output_file" --folder_id "18yZ1TQGqBRfWg12VgjCOIV74thLXj5Zk" --path "${uploaddir}/${polyxver}/${device_code}/" || {
     upload "Error uploading file to Google Drive"
     exit 1
 }
